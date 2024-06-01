@@ -102,7 +102,7 @@ export default function Home() {
             <div className="p-14 w-full text-black flex flex-col gap-1">
               <p className={`${anton.className} w-[485px] text-[100px] leading-[120px] `}>REPORT FORMATTER</p>
               <p className={`${poppins.className} font-medium text-[24px]`}>UI UX Design</p>
-              <p className={`${poppins.className} w-[485px] leading-[20px] `}>Report Formatter is an app that helps student to create their dissertation, you don’t have to worry about the indentation, what font does it use in common, everything makes easy using this app.</p>
+              <p className={`${poppins.className} w-[485px] leading-[20px] `}>Report Formatter is an app that helps student to create their dissertation, you dont have to worry about the indentation, what font does it use in common, everything makes easy using this app.</p>
             </div>
             <div>
               <Image
@@ -120,7 +120,7 @@ export default function Home() {
             <div className="p-14 w-1/2 text-black flex flex-col gap-1">
               <p className={`${anton.className} w-[600px] text-[100px] leading-[120px] `}>COURSE ABSENCE CODE</p>
               <p className={`${poppins.className} font-medium text-[24px]`}>UI UX Design</p>
-              <p className={`${poppins.className} w-[485px] leading-[20px] `}>This app is for campus activities helper. So when a lecturer wan’t absence their presence they just give a code and student fill it on this app.</p>
+              <p className={`${poppins.className} w-[485px] leading-[20px] `}>This app is for campus activities helper. So when a lecturer want absence their presence they just give a code and student fill it on this app.</p>
             </div>
             <div className="w-1/2 h-full">
               <Image
@@ -138,7 +138,7 @@ export default function Home() {
             <div className="p-20 w-2/3 h-[644px] bg-[#DAC0A3] rounded-[48px] flex flex-col gap-4 drop-shadow-xl">
               <p className={`${anton.className} text-black text-[90px] leading-[90px]`}>FRONTEND DEVELOPER & UI UX DESIGNER ENTHUSIAST</p>
               <p className={`${poppins.className} text-black pr-2`}>Passionate about web & mobile ui technologies. I love working at the intersection of user friendly interfaces and creativity. I create memorable web & mobile experiences.</p>
-              <p className={`${poppins.className} text-black pr-2`}>When i’m not building or exploring new web & mobile experiences, i’m probably reading books or go for a walk.</p>
+              <p className={`${poppins.className} text-black pr-2`}>When im not building or exploring new web & mobile experiences, im probably reading books or go for a walk.</p>
             </div>
             <Image
               src={"/gabsee3.JPG"}
