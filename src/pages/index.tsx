@@ -21,12 +21,14 @@ export default function Home() {
         width={450}
         height={450}
         className="absolute top-0 -z-10"
+        alt="elipse"
       />
       <Image
         src={"/EllipseBottom.png"}
         width={450}
         height={450}
         className="absolute right-0 top-3/4 -z-10"
+        alt="elipse"
       />
 
       <div className="px-10">
@@ -36,6 +38,7 @@ export default function Home() {
               src={"/LogoGabsee.png"}
               width={90}
               height={90}
+              alt="logo-gabs"
             />
             <div className="flex flex-row gap-[90px] pr-8 text-[#000000] text-[24px]">
               <a href="#hero"><span>Home</span></a>
@@ -54,6 +57,7 @@ export default function Home() {
             width={523}
             height={758}
             className=" absolute -bottom-[142px] left-[100px]"
+            alt="gabsee"
           />
           <div className="w-full flex flex-col justify-center items-end gap-4 pr-12">
             <p className={`${anton.className} w-1/2 text-black text-end text-[120px] font-bold leading-[120px]`}>PETER GABRIEL SOMPOTAN</p>
@@ -68,11 +72,13 @@ export default function Home() {
             src={"/unity-text.png"}
             width={200}
             height={200}
+            alt="unity"
           />
           <Image
             src={"/logo-unsrat.png"}
             width={140}
             height={140}
+            alt="unsrat"
           />
         </div>
 
@@ -80,13 +86,14 @@ export default function Home() {
           <div className="flex flex-row gap-2  ">
             <div className="p-20 w-2/3 h-[644px] bg-[#DAC0A3] rounded-[48px] drop-shadow-xl">
               <p className={`${anton.className} text-black text-[100px] leading-[120px]`}>I DELIVER RESULTS THAT MAKE A DIFFERENCE</p>
-              <p className={`${poppins.className} text-black pr-2`}>I don't just write code, I build solutions that drive user engagement, increase conversions, and improve your bottom line.</p>
+              <p className={`${poppins.className} text-black pr-2`}>I dont just write code, I build solutions that drive user engagement, increase conversions, and improve your bottom line.</p>
             </div>
             <Image
               src={"/gabsee2.JPG"}
               width={486}
               height={644}
               className="w-1/3 rounded-[48px] drop-shadow-xl"
+              alt="gabsee2"
             />
           </div>
 
@@ -103,6 +110,7 @@ export default function Home() {
                 width={765}
                 height={510}
                 className="rounded-[48px] mr-[500px]"
+                alt="reportformatter"
               />
             </div>
 
@@ -120,6 +128,7 @@ export default function Home() {
                 width={500}
                 height={500}
                 className="rounded-[48px] w-full h-full "
+                alt="absensce-code"
               />
             </div>
 
@@ -136,6 +145,7 @@ export default function Home() {
               width={486}
               height={644}
               className="w-1/3 rounded-[48px] drop-shadow-xl"
+              alt="gabsee3"
             />
           </div>
 
@@ -147,6 +157,7 @@ export default function Home() {
                   src={"/gmail.png"}
                   width={100}
                   height={100}
+                  alt="gmail"
                 />
               </a>
               <a href="https://www.linkedin.com/in/gabsee">
@@ -154,6 +165,7 @@ export default function Home() {
                   src={"/linkedin.png"}
                   width={100}
                   height={100}
+                  alt="linkedin"
                 />
               </a>
               <a href="https://www.instagram.com/petersompotan/">
@@ -161,6 +173,7 @@ export default function Home() {
                   src={"/instagram.png"}
                   width={100}
                   height={100}
+                  alt="instagram"
                 />
               </a>
 
